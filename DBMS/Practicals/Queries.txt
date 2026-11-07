@@ -1,0 +1,100 @@
+1.Draw ER diagrams Hospital Management System and Convert them into tables suitable. Display constraints.
+
+
+2.Draw ER diagrams Library Management System and Convert them into tables suitable. Display constraints
+
+
+3. Design a Student Database Management System by following the conditions given below:
+	1.Create a table named Students.
+	2.Ensure that each student record is unique.
+	3.The Mobile number of each student must not be empty.
+	4.Each student must be associated with an existing department.
+	5.Student Age must be greater than 18.
+	6.Add a new column Mail ID, which must be unique.
+	7.Modify the data type of the Mobile column.
+	8.Drop the City column from the Students table.
+	9.Rename the Students table to Students1.
+	10.Create a view that displays students who have scored 80 marks.
+4. Design an Employee Database Management System by following the conditions given below:
+	1.Create a table named Employee.
+	2.Ensure that each employee record is unique.
+	3.The Mobile number of each employee must not be empty 
+	4.Each employee must be associated with an existing department 
+	5.Employee Salary must be greater than 0.
+	6.Add a new column Email, which must be unique.
+	7.Modify the data type of the Mobile column.
+	8.Drop the City column from the Employee table.
+	9.Rename the Employee table to Employee Details.
+	10.Create a view that displays employees earning a salary of 50,000 or more.
+5. DML SQL Queries on Employees Table
+	1.Insert data into the Employees table
+	2.Update the salary of an employee whose salary is Rs.10000
+	3.Delete an employee with a Id is 200
+	4.Select employees with salary greater than 50,000
+	5.Select employees working in departments 1, 2, or 3
+	6.Select employees with names starting with 'A'
+	7.Select employees with salary between 40,000 and 70,000
+	8.Select employees with non-null email addresses
+	9.Select employees with salary > 50,000 and in DeptID = 2
+	10.Select employees not in DeptID 4 or 5
+6. DML SQL Queries on Students Table
+	1.Insert a student record into the Students table.
+	2.Update the city of students whose marks are greater than 60.
+	3.Delete the record of the student whose ID is 01.
+	4.Select students who are older than 17.
+	5.Select students whose names start with 'S'.
+	6.Select students from the Students table whose marks are 40, 50, or 65.
+	7.Select students whose names start with 'Kishor'.
+	8.Select students who scored between 75 and 90 marks.
+	9.Select students with age greater than 16 and marks greater than or equal to 80.
+	10.Select students whose city is not in Pune or Mumbai.
+
+
+7.SQL JOIN Queries for Customer and Orders Tables
+	1.Select customers with their orders
+	2.Select all customers and their orders
+	3.Select all orders and the corresponding customer
+	4.Select all customers and all orders, matching where possible
+	5.Select orders with amount greater than 100 for each customer
+	6. Select distinct customers who have placed orders
+
+
+8.Unnamed PL/SQLcode block: Use of Control structure and Exception handling is mandatory.
+
+
+9. Write a PL/SQL block of code using parameterized Cursor that will merge the data available in the newly created table N_Roll_Call with the data available in the table O_Roll_Call. If the data in the first table already exists in the second table then that data should be skipped.
+
+
+10. Design and Develop MongoDB Queries using CRUD operations.
+
+
+11. MongoDB – Aggregation and Indexing: Design and Develop MongoDB Queries using aggregation and indexing with suitable example using MongoDB.
+
+
+12. Exporting and Importing data: Design and develop SQL DML statements to demonstrate
+exporting/Importing tables to external files of different file formats ex. CSV, XLSX, TXT, etc.
+
+
+13. Database Connectivity: Write a program to implement MySQL database connectivity with any front end language to implement Database navigation DDL operations.
+
+
+14. Database Connectivity: Write a program to implement MySQL database connectivity with any front end language to implement Database navigation DML operations.
+
+
+15. Perform all aggregate operation in SQL
+
+
+16. MongoDB CRUD Queries on Student Data
+	1.Insert a new student record
+	2.Find students older than 18
+	3.Update the marks of a specific student
+	4.Delete a student record by student ID
+	5.Select students and show only their name and marks
+
+
+17. A company wants to maintain a record of all changes made to the Employee table. Whenever an employee's salary is updated, the system should automatically store the old salary, new salary, employee ID, and timestamp in an Employee_Audit table. Write a database trigger that automatically logs salary updates whenever a change occurs in the Employee table.
+
+
+18. A college database stores student details in a Student table. Before inserting a new record, the system must ensure that the student's age is at least 18. If the age is less than 18, the insertion should be prevented.
+
+Task: Write a BEFORE INSERT trigger to validate the age before adding a new student record.
